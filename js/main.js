@@ -69,3 +69,10 @@ $(document).ready(function () {
 
 });
 
+// Action for button CV view
+
+document.getElementById("cv__view").addEventListener("click", cv);
+function cv() {
+    window.open("https://duongnamtruong.com/Frontend_Web_Developer_DuongNamTruong_CV.pdf");
+}
+
