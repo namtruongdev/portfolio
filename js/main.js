@@ -69,10 +69,18 @@ $(document).ready(function () {
 
 });
 
-// Action for button CV view
+// Action for button CV view, CV download
 
 document.getElementById("cv__view").addEventListener("click", cv);
+document.getElementById("cv__download").addEventListener("click", cv);
 function cv() {
     window.open("https://duongnamtruong.com/Frontend_Web_Developer_DuongNamTruong_CV.pdf");
+}
+
+// Action for button hire me
+
+document.getElementById("hireme").addEventListener("click", hire);
+function hire() {
+window.open("https://m.me/truongduongg99");
 }
 
